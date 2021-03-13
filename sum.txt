@@ -1,4 +1,5 @@
 private int sum(int a,int b)
-{
+{if (a+b >Integer.MAX
+{ throw new rxception()}
 return a+b;
 }
