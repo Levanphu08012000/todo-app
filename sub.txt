@@ -1,3 +1,5 @@
 privat int sub(int a,int b)
+{if(a-b <Integer.MIN)
+{throw  new exception();
 { return a-b;
 }
